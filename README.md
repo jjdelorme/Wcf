@@ -4,5 +4,7 @@ Simple WCF example with client and server implementation.  Dockerfile is include
 ## Build the container
 docker build -t wcfservice:v1 -f Dockerfile .
 
-## Run the container locally, listening on port 7665 and exposing to the local machine.
+## Run the container locally
+
+To listen on port 7665 and expose.
 docker run -it -p 7665:7665 -e PORT=7665 wcfservice:v1
